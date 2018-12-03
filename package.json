@@ -1,0 +1,32 @@
+{
+  "name": "algorithm-timer-api",
+  "version": "1.0.0",
+  "description": "API for the Algorithm Timer",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "mocha --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bricker/algorithm-timer-api.git"
+  },
+  "author": "Bryan Ricker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bricker/algorithm-timer-api/issues"
+  },
+  "homepage": "https://github.com/bricker/algorithm-timer-api#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.0",
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "mocha": "^5.2.0"
+  }
+}
